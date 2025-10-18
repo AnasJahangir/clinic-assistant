@@ -1,0 +1,35 @@
+{
+  "name": "Smile Bright Dental Clinic",
+  "address": "123 Main Street, Karachi",
+  "phone": "+92-300-1234567",
+  "timings": {
+    "monday": "10:00 AM - 7:00 PM",
+    "tuesday": "10:00 AM - 7:00 PM",
+    "wednesday": "Closed",
+    "thursday": "10:00 AM - 7:00 PM",
+    "friday": "10:00 AM - 7:00 PM",
+    "saturday": "10:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "services": {
+    "scaling": "Professional teeth cleaning, takes about 30 minutes, costs PKR 1500.",
+    "root_canal": "Endodontic treatment, usually 2-3 visits, costs PKR 8000-10000.",
+    "whitening": "Cosmetic whitening, 1 visit, costs PKR 5000.",
+    "orthodontics": "Braces and aligners. Treatment length varies."
+  },
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Khan",
+      "speciality": "Orthodontist",
+      "available": "Mon–Fri"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ali Rehman",
+      "speciality": "Endodontist",
+      "available": "Tue–Sat"
+    }
+  ],
+  "notes": "For emergencies please call the clinic phone number during working hours."
+}
