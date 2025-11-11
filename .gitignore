@@ -2,6 +2,5 @@ clinic_chroma
 __pycache__
 
 
-.vscode/
-.env
-.env.development
+config.bat
+node_modules
