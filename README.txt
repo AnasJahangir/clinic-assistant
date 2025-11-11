@@ -38,7 +38,3 @@ API examples:
 OpenAI integration:
  - To use GPT-style replies set environment variable OPENAI_API_KEY before starting the server.
  - app.py uses the OpenAI Python SDK (client named `OpenAI`) and calls model "gpt-4o-mini" in the example.
-
-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
-
-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
