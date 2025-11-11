@@ -76,7 +76,7 @@ def build_vector_store():
     docs = [Document(page_content=t) for t in text_data]
     split_docs = text_splitter.split_documents(docs)
 
-    # ✅ Free embedding model
+    # Free embedding model
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
     vectordb = Chroma.from_documents(split_docs, embedding=embeddings, persist_directory=CHROMA_DIR)
@@ -176,7 +176,7 @@ def startup_event():
             if not exists:
                 session.add(Doctor(**d))
         session.commit()
-    print("✅ Groq Assistant ready with vector store.")
+    print( Groq Assistant ready with vector store.")
 
 # ------------------------
 # Endpoints
